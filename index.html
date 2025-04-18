@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>東吉島氣象站</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>東吉島氣象站</h1>
+    <p>資料來源：中央氣象署</p>
+  </header>
+
+  <section id="weather">
+    <h2>即時天氣</h2>
+    <p>氣溫：<span id="temp">--</span> °C</p>
+    <p>風速：<span id="wind">--</span> m/s</p>
+    <p>降雨量：<span id="rain">--</span> mm</p>
+  </section>
+
+  <section id="chart">
+    <h2>模擬：過去 24 小時氣溫趨勢</h2>
+    <canvas id="tempChart" width="600" height="300"></canvas>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 東吉島氣象站</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
