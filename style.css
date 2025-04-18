@@ -1,10 +1,14 @@
 body {
+ 
+  background-image: url("assets/IMG_3765.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  margin: 0;
   font-family: "Microsoft JhengHei", sans-serif;
-  background-color: #e9f3f7;
-  color: #333;
-  max-width: 700px;
-  margin: auto;
-  padding: 20px;
+}
 }
 header, footer {
   text-align: center;
